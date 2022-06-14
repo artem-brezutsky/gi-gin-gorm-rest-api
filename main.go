@@ -16,9 +16,7 @@ func main() {
 	r.PATCH("/books/:id", controllers.UpdateBook)
 	r.DELETE("books/:id", controllers.DeleteBook)
 
-	err := r.Run(":8086")
-
-	if err != nil {
+	if err := r.Run(":8086"); err != nil {
 		panic("Error run server!")
 	}
 }
