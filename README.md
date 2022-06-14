@@ -1,2 +1,3 @@
-# gi-gin-gorm-rest-api
-Go + Gin + Gorn REST Api
+# GoLang
+### Go + Gin + Gorm REST Api
+Lear how create RESTApi service with Gin and Gorm
